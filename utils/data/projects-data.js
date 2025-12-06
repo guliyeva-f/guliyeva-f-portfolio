@@ -1,0 +1,38 @@
+export const projectsData = [
+    {
+        id: 1,
+        name: 'Night Cinema',
+        role: 'FrontEnd Developer',
+        description: "Night Cinema is a user-friendly web platform for buying movie tickets online. Users can browse movies, check available sessions, select seats, and purchase tickets. The profile section allows users to manage their personal information and view their purchased or watched movies. The project also includes an admin panel where administrators can easily add, edit, or delete movies, users, and sessions. Overall, Night Cinema provides a simple, fast, and intuitive experience for both users and administrators",
+        tools: ["React", "Vite", "Tailwind CSS", "Shadcn/UI", "Radix UI", "Axios", "React Router", "Java", "Spring Boot", "REST API", "MySQL", "Vercel", "Heroku"],
+        demo: 'https://night-cinema.vercel.app',
+        github: 'https://github.com/guliyeva-f/nightCinema',
+    },
+    {
+        id: 2,
+        name: 'Libraff Clone',
+        role: 'FrontEnd Developer',
+        description: "I developed a simplified clone of the Libraff.az bookstore website. The project features a JSON Server–based REST API where all book data is stored and rendered on the frontend. Users can browse books, filter them by categories, view detailed information, and manage a shopping cart by adding or removing items. The platform also includes an admin panel that allows administrators to add, edit, or delete books. This project demonstrates a clean UI, functional filtering, dynamic rendering, and basic full CRUD operations using JSON Server",
+        tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "SweetAlert2", "JSON Server", "REST API", "Vercel"],
+        demo: 'https://fatimas-libraff.vercel.app/',
+        github: 'https://github.com/guliyeva-f/FatimasLibraff.az',
+    },
+    {
+        id: 3,
+        name: 'ATB Clone',
+        role: 'FrontEnd Developer',
+        description: "This project is a simple front-end clone of the ATB Bank website. I built the pages using HTML, CSS, and JavaScript. The site includes basic interactive features such as a loan calculator, a deposit calculator, sliders, a search section, and dropdown menus. All actions work on the client side without a backend or API. The goal of the project was to repeat the main design and make the basic functions work smoothly",
+        tools: ["HTML", "CSS", "JavaScript", "Swiper.js", "Tailwind CSS", "Vercel"],
+        demo: 'https://task-atb-by-guliyeva.vercel.app/',
+        github: 'https://github.com/guliyeva-f/TaskAtbByGuliyeva',
+    },
+    {
+        id: 4,
+        name: 'Country App',
+        role: 'FrontEnd Developer',
+        description: "This project shows a list of countries on the screen. All country data is loaded from a JSON file using fetch. Users can click any country to open a separate details page that displays more information. There is also a “random country” card that shows a different country each time. Users can filter countries by region, view more countries with the “show more” button, and see important details like population, capital, languages, and more. All pages and functions work only on the front end using JavaScript",
+        tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Fetch API", "Vercel"],
+        demo: 'https://fatimas-country-app.vercel.app/',
+        github: 'https://github.com/guliyeva-f/countryApp',
+    },
+];
