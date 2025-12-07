@@ -11,6 +11,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="tYlhxTltpaGQQGNO_kg5qeboHbXS57ZQNXaFuvwtn4Y"
+        />
+      </head>
       <body className={inter.className}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-280 xl:max-w-304 2xl:max-w-368 text-white">
