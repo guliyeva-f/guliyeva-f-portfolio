@@ -16,7 +16,7 @@ const Projects = () => {
       </div>
       <div className="pt-24">
         <div className="flex flex-col gap-6">
-          {projectsData.slice(0, 4).map((project, index) => (
+          {projectsData.map((project, index) => (
             <div id={`sticky-card-${index + 1}`}
               key={index}
               className="sticky-card w-full mx-auto max-w-2xl sticky" >
@@ -32,10 +32,10 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="group relative inline-flex overflow-hidden rounded-full p-0.5 focus:outline-none"
           ><span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-linear-to-r from-pink-600 via-purple-600 to-blue-600"
-            ></span><span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-8 py-3 text-sm font-medium backdrop-blur-3xl transition-all duration-300 group-hover:bg-slate-950/90"
-            ><svg stroke="currentColor"
-              viewBox="0 0 24 24"
-              fill="none" className="mr-2 h-5 w-5 text-pink-500 transition-transform duration-300 group-hover:-translate-x-1" >
+          ></span><span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-8 py-3 text-sm font-medium backdrop-blur-3xl transition-all duration-300 group-hover:bg-slate-950/90"
+          ><svg stroke="currentColor"
+            viewBox="0 0 24 24"
+            fill="none" className="mr-2 h-5 w-5 text-pink-500 transition-transform duration-300 group-hover:-translate-x-1" >
                 <path
                   d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
                   strokeWidth="2"

@@ -15,6 +15,7 @@ export const skillsData = [
   'ViteJS',
   'MySQL',
   'C#',
+  'Next JS'
 ]
 
 // AVAILABLE SKILLS
@@ -24,7 +25,6 @@ export const skillsData = [
   CSS
   JS 
   React
-  Next JS
   Nuxt JS
   Node JS
   Vue

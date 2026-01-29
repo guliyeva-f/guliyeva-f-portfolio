@@ -84,6 +84,7 @@ import vitejs from '../app/assets/svg/skills/vitejs.svg';
 import shadcnUI from '../app/assets/svg/skills/shadcnui.svg'
 import sass from '../app/assets/svg/skills/sass.png'
 import github from '../app/assets/svg/skills/github.png'
+import nextJS from '../app/assets/svg/skills/next.png'
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -120,6 +121,8 @@ export const skillsImage = (skill) => {
       return mysql;
     case 'c#':
       return csharp;
+    case 'next js':
+      return nextJS;
 
     // case '.net core':
     //   return dotnetcore;
@@ -135,8 +138,6 @@ export const skillsImage = (skill) => {
     //   return afterEffects;
     // case 'angular':
     //   return angular;
-    // case 'next js':
-    //   return nextJS;
     // case 'nuxt js':
     //   return nuxtJS;
     // case 'gcp':

@@ -10,5 +10,5 @@ export const personalData = {
   github: 'https://github.com/guliyeva-f',
   instagram: 'https://www.instagram.com/qlyva.o2/',
   devUsername: "Guliyeva",
-  resume: "https://drive.google.com/file/d/gelecek"
+  resume: "../../../../Fatima-Guliyeva-CV.pdf"
 }
