@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import MyGallery from "../components/homepage/myGallery";
 
 const allProjects = [
   {
@@ -89,6 +90,7 @@ export default function ProjectsPage() {
         </h1>
         <div className="mt-4 w-24 h-1 bg-linear-to-r from-purple-500 to-pink-500 rounded-full"></div>
       </div>
+       <MyGallery />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-6">
         {allProjects.map((project) => (
           <div

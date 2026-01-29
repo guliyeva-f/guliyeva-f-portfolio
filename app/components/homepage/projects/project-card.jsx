@@ -40,7 +40,7 @@ function ProjectCard({ project }) {
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">Demo:</span>
             <a
-              href={project.demo.startsWith('http') ? project.demo : 'https://' + project.demo}
+              href={project.demo.startsWith("http") ? project.demo : project.demo}
               target="_blank"
               rel="noopener noreferrer"
               className="text-pink-300 hover:text-pink-200 font-bold"
@@ -77,7 +77,7 @@ function ProjectCard({ project }) {
                 href={project.github.startsWith('http') ? project.github : 'https://' + project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-              className="text-pink-300 hover:text-pink-200 font-bold"
+                className="text-pink-300 hover:text-pink-200 font-bold"
               >
                 {project.github}
               </a>

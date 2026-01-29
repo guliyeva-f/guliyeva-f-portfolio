@@ -22,22 +22,6 @@ function ContactSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Contact with me</p>
           <div className="flex flex-col items-center gap-5 lg:gap-6">
             <p className="text-sm md:text-xl flex items-center gap-3">
-              <MdAlternateEmail
-                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={36}
-              />
-              <span>{personalData.email}</span>
-            </p>
-            <p className="text-sm md:text-xl flex items-center gap-3">
-              <IoMdCall
-                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={36}
-              />
-              <span>
-                {personalData.phone}
-              </span>
-            </p>
-            <p className="text-sm md:text-xl flex items-center gap-3">
               <CiLocationOn
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
@@ -46,30 +30,30 @@ function ContactSection() {
                 {personalData.address}
               </span>
             </p>
-          </div>
-          <div className="mt-8 lg:mt-16 flex items-center gap-5">
-            <Link target="_blank" href={personalData.github}>
+            <p className="text-sm md:text-xl flex items-center gap-3">
+              <MdAlternateEmail
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
+              />
+              <span>{personalData.email}</span>
+            </p>
+            <p className="text-sm md:text-xl flex items-center gap-3">
               <IoLogoGithub
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
-            </Link>
-            <Link href="#">
-              <BiLogoLinkedin
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link href="#">
-              <FaFacebook
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
-            </Link>
+              <a
+                href={personalData.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {personalData.github}
+              </a>
+            </p>
           </div>
         </div>
         <div className="flex">
-          <div className="w-[400px] h-[400px]">
+          <div className="w-100 h-100">
             <AnimationLottie animationPath={contact} />
           </div>
         </div>
